@@ -5,7 +5,12 @@ public class Main {
 //        Reverse reverse = new Reverse();
 //        reverse.startReadingFromFile("src/main/resources/file.txt");
 
-        Revers2 revers2 = new Revers2();
-        revers2.startReadingFromFile("src/main/resources/file.txt");
+//        Revers2 revers2 = new Revers2();
+//        revers2.startReadingFromFile("src/main/resources/file.txt");
+
+        Counter counter = new Counter();
+        counter.startReadingToFile("src/main/resources/file.txt ", "src/main/resources/fileInput");
+
+
     }
 }
